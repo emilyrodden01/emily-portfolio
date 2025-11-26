@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  
+  <div id="navBar"></div>
+
+    <script>
+      fetch('navBar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navBar').innerHTML = data;
+        });
+    </script>
+
+
+    <h1>About Me</h1>
+    <p> I decided to make a silly website to have fun!</p>
+
+
+  </body>
+</html>
