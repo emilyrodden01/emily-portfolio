@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navBar {
+  background-color: #ff69b4;
+  padding: 10px;
+  text-align: left;
+}
+
+.navBar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.navBar a:hover {
+  text-decoration: underline;
+}
