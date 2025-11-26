@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div id="navbar"></div>
 
+    <script>
+      fetch('navBar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar').innerHTML = data;
+        });
+    </script>
+
+
+
+    <h1>Emily's Epic Website</h1>
+    <p> Welcome to my site! It's epic!</p>
+    
+
+
+  </body>
+</html>
